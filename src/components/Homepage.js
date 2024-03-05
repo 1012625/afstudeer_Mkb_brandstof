@@ -40,7 +40,7 @@ const Homepage = () => {
   }, [darkMode]);
 
   return (
-    <div className={`homepage-container ${darkMode ? 'dark-mode' : ''}`} style={{ paddingTop: '400px' }}>
+    <div className={`homepage-container ${darkMode ? 'dark-mode' : ''}`} style={{ paddingTop: '450px' }}>
       <div className={`taskbar ${darkMode ? 'dark-mode-taskbar' : ''}`}>
         <button className="homepage-button" onClick={handleLoginButtonClick}>
           Klant login
@@ -61,8 +61,8 @@ const Homepage = () => {
       <p className="welcome-text"style={{ fontSize: '20px', fontWeight: 'bold' }}>
         Hiermee krijg je binnen een handomdraai slimme inzichten over je verbruik. Log hier rechtsboven in met je Online Dashboard gegevens.
       </p>
-      <img src={mkbFotoImage} alt="mkb" className="mkb-fotoImage" style={{ width: 'auto', height: 'auto' }} />
-      <p className="laadpaal-text" style={{ fontSize: '20px', fontWeight: 'bold' }}>Laad je elektrische voertuig op met gemak! Wij bieden niet alleen een tankpas,</p>
+      <img src={mkbFotoImage} alt="mkb" className="mkb-fotoImage" style={{ width: '700px', height: 'auto' }} />
+      <p className="laadpaal-text" style={{ fontSize: '20px', fontWeight: 'bold' }}>Laad je elektrische voertuig op met gemak! Wij bieden niet alleen een tankpas en een laadpas,</p>
       <p className="laadpaal-text" style={{ fontSize: '20px', fontWeight: 'bold' }}>maar ook de mogelijkheid tot het installeren van laadpalen.</p>
       <img src={laadpaalImage} alt="laadpaal" className="laadpaalImage" style={{ width: '550px', height: 'auto' }} />
     </div>
