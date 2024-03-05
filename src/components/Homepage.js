@@ -55,15 +55,15 @@ const Homepage = () => {
       <button className="mkb-brandstof-button2" onClick={handlehome}>
         brandstof
       </button>
-      <p className="welcome-text">
+      <p className="welcome-text"style={{ fontSize: '20px', fontWeight: 'bold' }}>
         Welkom op je verbruiksdashboard van MKB Brandstof!
       </p>
-      <p className="welcome-text">
+      <p className="welcome-text"style={{ fontSize: '20px', fontWeight: 'bold' }}>
         Hiermee krijg je binnen een handomdraai slimme inzichten over je verbruik. Log hier rechtsboven in met je Online Dashboard gegevens.
       </p>
       <img src={mkbFotoImage} alt="mkb" className="mkb-fotoImage" style={{ width: 'auto', height: 'auto' }} />
-      <p className="laadpaal-text">Laad je elektrische voertuig op met gemak bij MKB Brandstof! Wij bieden niet alleen een tankpas,</p>
-      <p className="laadpaal-text">maar ook de mogelijkheid tot het installeren van laadpalen.</p>
+      <p className="laadpaal-text" style={{ fontSize: '20px', fontWeight: 'bold' }}>Laad je elektrische voertuig op met gemak! Wij bieden niet alleen een tankpas,</p>
+      <p className="laadpaal-text" style={{ fontSize: '20px', fontWeight: 'bold' }}>maar ook de mogelijkheid tot het installeren van laadpalen.</p>
       <img src={laadpaalImage} alt="laadpaal" className="laadpaalImage" style={{ width: '550px', height: 'auto' }} />
     </div>
   );
