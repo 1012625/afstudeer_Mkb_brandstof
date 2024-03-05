@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import '../App.css';
-import fuelImage from '../fuel.png'; 
+import fuelImage from '../fuel.png';
 import smokeImage from '../smoke.png';
 
 function Overview() {
