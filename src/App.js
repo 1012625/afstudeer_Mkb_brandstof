@@ -7,16 +7,16 @@ import Login from "./components/Login";
 //import EditFeedbackForm from "./components/EditFeedbackForm";
 //import Answers from "./components/answers";
 //import QuestionForm from "./components/QuestionForm";
-//import Check from "./components/check";
+import Choose from "./components/choose";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/choose" element={<Choose />} />
         <Route path="/overview" element={<Overview />} />
         <Route path="/login" element={<Login />} />
-
       </Routes>
     </Router>
   );

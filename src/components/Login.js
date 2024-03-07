@@ -23,7 +23,7 @@ const Login = () => {
       });
       console.log(response.data.success);
       setLoggedIn(true);
-      navigate(`/overview`);
+      navigate(`/choose`);
     } catch (error) {
       if (error.response) {
         console.log(error.response.data.error);
@@ -39,7 +39,7 @@ const Login = () => {
 
   const toFeedbackForm = () => {
     console.log("logged in");
-    navigate("/overview");
+    navigate("/choose");
     return (
       <button className="login-button" onClick={handleLogout}>
         Logout
