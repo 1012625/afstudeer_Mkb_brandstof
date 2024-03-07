@@ -55,13 +55,13 @@ h1 {
 .light-mode .mkb-brandstof-button2,
 .light-mode .homepage-button {
   background-color: #800080; 
-  color: #fff; 
+  color: #ffffff; 
 }
 
 /* Styles for buttons in light mode */
 .light-mode .mkb-brandstof-button,
 .light-mode .mkb-brandstof-button2{
-  background-color: #fafafa; 
+  background-color: #ffffff;
   color: #800080;
 }
 
@@ -70,7 +70,7 @@ h1 {
 .dark-mode .mkb-brandstof-button2,
 .dark-mode .homepage-button {
   background-color: #333; 
-  color: #fff; 
+  color: #ffffff;
 }
 
 

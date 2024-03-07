@@ -72,8 +72,7 @@ function Overview() {
 }
 
 function calculateCO2(liters, type) {
-  // Hier kun je de CO2-uitstoot berekenen op basis van het type brandstof en het aantal liters
-  // Vervang de onderstaande dummy berekening door de werkelijke berekening
+  // Hier wordt de CO2-uitstoot berekend op basis van het type brandstof en het aantal liters
   if (type === "benzine"){
     const co2PerLiter = 2.4;
     return liters * co2PerLiter;
