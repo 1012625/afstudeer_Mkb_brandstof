@@ -25,7 +25,7 @@ function Overview() {
 
   const handleHomeButtonClick = () => {
     console.log("Home button clicked");
-    navigate("/");
+    navigate("/choose");
   };
 
   return (
